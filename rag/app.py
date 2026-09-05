@@ -1,7 +1,3 @@
-"""
-Streamlit demo UI for the RAG pipeline. Reuses retrieval/generation logic
-from ask.py and embedder.py directly — no logic duplicated here.
-"""
 
 import streamlit as st
 
