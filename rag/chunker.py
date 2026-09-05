@@ -1,7 +1,5 @@
 """
 Splits a findings text file into smaller chunks for embedding.
-
-Strategy (deliberately simple):
 1. Split the text on blank lines into paragraphs.
 2. Walk through the paragraphs, accumulating them into a "buffer" chunk.
 3. Once the buffer reaches MIN_WORDS, cut it loose as a finished chunk and
