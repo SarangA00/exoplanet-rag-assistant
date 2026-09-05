@@ -3,16 +3,6 @@ split_dataset.py
 ─────────────────
 Splits the raw PSCompPars exoplanet CSV into a training set and a held-out
 test set.
-
-WHY THIS EXISTS
----------------
-Maduanti flagged this as a required step before building anything
-chat-facing: all analysis modules (HZ classification, regression, EDA)
-should be developed and tuned using ONLY the training set. The test set
-stays completely unseen until we want to check that a chat interface
-(or any future model) gives sensible answers on data it hasn't been
-tuned against.
-
 HOW TO RUN IT
 -------------
     python3 split_dataset.py
