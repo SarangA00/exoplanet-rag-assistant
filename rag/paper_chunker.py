@@ -2,8 +2,6 @@
 Chunking for research papers -- different from the findings-file chunker
 because papers have real structure (sections/subsections) but no reliable
 blank-line paragraph breaks once extracted from PDF.
-
-Strategy:
 1. Detect section header lines (e.g. "ABSTRACT", "3.1. Necessary
    Information", "2 Methods") and split the paper into (header, body)
    sections at those boundaries.
