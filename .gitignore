@@ -1,0 +1,18 @@
+# OS / editor
+.DS_Store
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large / regenerable data
+split_data/
+rag/rag.db
+rag/__pycache__/
+
+# Third-party research papers (not ours to redistribute)
+rag/papers/*.pdf
+Sarang_Athani_New_Resume_Entries.docx

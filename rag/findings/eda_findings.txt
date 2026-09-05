@@ -1,0 +1,7 @@
+Exploratory data analysis was run on 5038 confirmed exoplanets across 84 columns from the NASA Planetary Systems Composite Parameters (PSCompPars) dataset.
+
+Column completeness for key fields: pl_orbper (94.5% valid, median 10.688); pl_rade (99.1% valid, median 2.86); pl_bmasse (99.5% valid, median 9.32); pl_eqt (91.4% valid, median 755.0); pl_insol (90.6% valid, median 65.862); pl_orbeccen (83.5% valid, median 0.0); st_teff (95.1% valid, median 5543.0); st_rad (94.7% valid, median 0.95); st_mass (99.9% valid, median 0.94).
+
+Planets by discovery method, most to least common: Transit (3726), Radial Velocity (938), Microlensing (232), Imaging (73), Transit Timing Variations (33), Eclipse Timing Variations (15), Orbital Brightness Modulation (9), Pulsar Timing (7), Astrometry (4), Pulsation Timing Variations (1).
+
+The strongest pairwise correlations found were: Planet Radius (R⊕) vs. Planet Mass (M⊕) (|r|=0.917); Orbital Period (days) vs. Insolation Flux (S⊕) (|r|=0.841); Equil. Temperature (K) vs. Insolation Flux (S⊕) (|r|=0.82); Stellar Radius (R☉) vs. Stellar Mass (M☉) (|r|=0.791); Orbital Period (days) vs. Equil. Temperature (K) (|r|=0.654); Orbital Period (days) vs. Planet Mass (M⊕) (|r|=0.497).

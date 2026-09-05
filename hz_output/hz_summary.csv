@@ -1,0 +1,9 @@
+discoverymethod,hz_class,count,percentage
+Radial Velocity,Habitable Zone,134,11.298482293423271
+Radial Velocity,Too Cold,306,25.801011804384487
+Radial Velocity,Too Hot,710,59.86509274873525
+Radial Velocity,Unknown,36,3.0354131534569984
+Transit,Habitable Zone,51,1.096067053513862
+Transit,Too Cold,15,0.3223726627981947
+Transit,Too Hot,4374,94.00386847195358
+Transit,Unknown,213,4.577691811734365

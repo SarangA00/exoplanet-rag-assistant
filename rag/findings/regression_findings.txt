@@ -1,0 +1,3 @@
+A power-law fit of planet radius to planet mass across 6224 planets found an exponent (alpha) of 0.355 with intercept 0.092 and R-squared of 0.843. Planet radius scales with mass to the power of alpha. Departure from a single power law at high mass reflects the transition from rocky planets to compressible gas giants.
+
+A regression of planet radius ('pl_rade') on host-star features (st_teff, st_rad, st_mass) achieved test R-squared of 0.197 and test MAE of 0.302. Standardized coefficients: log st_rad (0.162), st_teff (0.032), log st_mass (-0.008). Low R2 indicates host-star properties (temperature, radius, mass) are weak predictors of planet radius on their own; other factors (e.g. distance from host star) likely dominate.

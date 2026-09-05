@@ -1,0 +1,63 @@
+{
+  "thresholds": {
+    "too_hot_above": 1.1,
+    "too_cold_below": 0.36
+  },
+  "total_planets_classified": 6298,
+  "overall_counts": {
+    "Too Hot": 5124,
+    "Unknown": 576,
+    "Too Cold": 412,
+    "Habitable Zone": 186
+  },
+  "by_method": [
+    {
+      "discoverymethod": "Radial Velocity",
+      "hz_class": "Habitable Zone",
+      "count": 134,
+      "percentage": 11.298482293423271
+    },
+    {
+      "discoverymethod": "Radial Velocity",
+      "hz_class": "Too Cold",
+      "count": 306,
+      "percentage": 25.801011804384487
+    },
+    {
+      "discoverymethod": "Radial Velocity",
+      "hz_class": "Too Hot",
+      "count": 710,
+      "percentage": 59.86509274873525
+    },
+    {
+      "discoverymethod": "Radial Velocity",
+      "hz_class": "Unknown",
+      "count": 36,
+      "percentage": 3.0354131534569984
+    },
+    {
+      "discoverymethod": "Transit",
+      "hz_class": "Habitable Zone",
+      "count": 51,
+      "percentage": 1.096067053513862
+    },
+    {
+      "discoverymethod": "Transit",
+      "hz_class": "Too Cold",
+      "count": 15,
+      "percentage": 0.3223726627981947
+    },
+    {
+      "discoverymethod": "Transit",
+      "hz_class": "Too Hot",
+      "count": 4374,
+      "percentage": 94.00386847195358
+    },
+    {
+      "discoverymethod": "Transit",
+      "hz_class": "Unknown",
+      "count": 213,
+      "percentage": 4.577691811734365
+    }
+  ]
+}

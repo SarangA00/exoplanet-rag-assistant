@@ -1,0 +1,86 @@
+{
+  "n_planets": 5038,
+  "n_columns": 84,
+  "column_completeness": {
+    "pl_orbper": {
+      "pct_valid": 94.5,
+      "median": 10.688
+    },
+    "pl_rade": {
+      "pct_valid": 99.1,
+      "median": 2.86
+    },
+    "pl_bmasse": {
+      "pct_valid": 99.5,
+      "median": 9.32
+    },
+    "pl_eqt": {
+      "pct_valid": 91.4,
+      "median": 755.0
+    },
+    "pl_insol": {
+      "pct_valid": 90.6,
+      "median": 65.862
+    },
+    "pl_orbeccen": {
+      "pct_valid": 83.5,
+      "median": 0.0
+    },
+    "st_teff": {
+      "pct_valid": 95.1,
+      "median": 5543.0
+    },
+    "st_rad": {
+      "pct_valid": 94.7,
+      "median": 0.95
+    },
+    "st_mass": {
+      "pct_valid": 99.9,
+      "median": 0.94
+    }
+  },
+  "discovery_method_counts": {
+    "Transit": 3726,
+    "Radial Velocity": 938,
+    "Microlensing": 232,
+    "Imaging": 73,
+    "Transit Timing Variations": 33,
+    "Eclipse Timing Variations": 15,
+    "Orbital Brightness Modulation": 9,
+    "Pulsar Timing": 7,
+    "Astrometry": 4,
+    "Pulsation Timing Variations": 1
+  },
+  "strongest_correlations": [
+    {
+      "col_a": "Planet Radius (R\u2295)",
+      "col_b": "Planet Mass (M\u2295)",
+      "abs_corr": 0.917
+    },
+    {
+      "col_a": "Orbital Period (days)",
+      "col_b": "Insolation Flux (S\u2295)",
+      "abs_corr": 0.841
+    },
+    {
+      "col_a": "Equil. Temperature (K)",
+      "col_b": "Insolation Flux (S\u2295)",
+      "abs_corr": 0.82
+    },
+    {
+      "col_a": "Stellar Radius (R\u2609)",
+      "col_b": "Stellar Mass (M\u2609)",
+      "abs_corr": 0.791
+    },
+    {
+      "col_a": "Orbital Period (days)",
+      "col_b": "Equil. Temperature (K)",
+      "abs_corr": 0.654
+    },
+    {
+      "col_a": "Orbital Period (days)",
+      "col_b": "Planet Mass (M\u2295)",
+      "abs_corr": 0.497
+    }
+  ]
+}

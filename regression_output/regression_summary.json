@@ -1,0 +1,34 @@
+{
+  "part_a_mass_radius": {
+    "power_law_exponent_alpha": 0.3548901647711502,
+    "intercept_c": 0.0923155685430262,
+    "r2": 0.8432819935131269,
+    "n_planets": 6224,
+    "interpretation": "Planet radius scales with mass to the power of alpha. Departure from a single power law at high mass reflects the transition from rocky planets to compressible gas giants."
+  },
+  "part_b_stellar_regression": {
+    "features": [
+      "st_teff",
+      "st_rad",
+      "st_mass"
+    ],
+    "target": "pl_rade",
+    "test_r2": 0.19652578733238313,
+    "test_mae": 0.3017554673679376,
+    "standardized_coefficients": [
+      {
+        "Feature": "log st_rad",
+        "Coefficient": 0.16191874023315955
+      },
+      {
+        "Feature": "st_teff",
+        "Coefficient": 0.03163039345516779
+      },
+      {
+        "Feature": "log st_mass",
+        "Coefficient": -0.008322762467127647
+      }
+    ],
+    "interpretation": "Low R2 indicates host-star properties (temperature, radius, mass) are weak predictors of planet radius on their own; other factors (e.g. distance from host star) likely dominate."
+  }
+}

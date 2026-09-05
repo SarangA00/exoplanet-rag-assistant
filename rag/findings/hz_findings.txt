@@ -1,0 +1,7 @@
+Habitable zone classification was run on 6298 planets, using an insolation flux threshold of 1.1 S(earth) for 'too hot' and 0.36 S(earth) for 'too cold'; planets in between are classified 'Habitable Zone', and planets missing the needed data are 'Unknown'.
+
+Overall classification counts were: Too Hot: 5124, Unknown: 576, Too Cold: 412, Habitable Zone: 186.
+
+Among planets discovered via Radial Velocity: Habitable Zone 11.3% (134), Too Cold 25.8% (306), Too Hot 59.9% (710), Unknown 3.0% (36).
+
+Among planets discovered via Transit: Habitable Zone 1.1% (51), Too Cold 0.3% (15), Too Hot 94.0% (4374), Unknown 4.6% (213).
